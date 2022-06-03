@@ -1,1 +1,47 @@
-// TODO
+.postContainer {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.postContent {
+  margin: 3rem auto 0;
+  font-size: 1.125rem;
+
+  a {
+    text-decoration: none;
+    color: var(--gray-100);
+    line-height: 2rem;
+  }
+
+  div {
+    display: flex;
+    width: 100%;
+
+    time {
+      display: block;
+      font-size: 1rem;
+      margin-top: 1.5rem;
+      color: var(--gray-300);
+    }
+
+    p {
+      margin: 1.5rem 0;
+      color: var(--gray-300);
+      margin-left: 1rem;
+    }
+
+    svg {
+      margin-right: 0.5rem;
+    }
+  }
+  h2 {
+    font-size: 1rem;
+    color: var(--gray-300);
+  }
+}
+
+.btnLoadPosts {
+  color: #FF57B2;
+
+}

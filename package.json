@@ -20,7 +20,7 @@
     "prismic-dom": "^2.2.5",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "react-icons": "^4.2.0",
+    "react-icons": "^4.4.0",
     "whatwg-fetch": "^3.6.2"
   },
   "devDependencies": {
